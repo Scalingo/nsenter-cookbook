@@ -30,6 +30,12 @@ the util-linux package:
     <td>util-linux version to use</td>
     <td><tt>2.29</tt></td>
   </tr>
+  <tr>
+    <td><tt>['nsenter']['destination']</tt></td>
+    <td>String</td>
+    <td>destination directory</td>
+    <td><tt>/sbin</tt></td>
+  </tr>
 </table>
 
 ## Usage

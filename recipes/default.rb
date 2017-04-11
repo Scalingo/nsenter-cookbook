@@ -17,7 +17,7 @@ package_build_path = File.join(Chef::Config[:file_cache_path], package_name)
 package_url        = "https://www.kernel.org/pub/linux/utils/util-linux/v#{version}/#{package_name}.tar.xz"
 
 tar_extract package_url do
-  prefix Chef::Config[:file_cache_path]
+  target_dir Chef::Config[:file_cache_path]
   creates package_build_path
 end
 
